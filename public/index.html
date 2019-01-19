@@ -3,12 +3,21 @@
   <head>
     <meta charset="utf-8" />
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <meta name="theme-color" content="#000000" />
     <style>
+      .anim-appear {
+        opacity: 0.01;
+      }
+      
+      .anim-appear.anim-appear-active{
+        opacity: 2;
+        transition: opacity 2s ease-in;
+      }
       body{
         background: linear-gradient( rgba(0, 0, 0, 0.6),
          rgba(0, 0, 0, 0.6) ), url(img/food.jpg) no-repeat;
