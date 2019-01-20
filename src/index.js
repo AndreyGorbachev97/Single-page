@@ -8,7 +8,7 @@ import WebFont from 'webfontloader';
 
 WebFont.load({
     google: {
-      families: ['PT Serif', 'serif']
+      families: ['Lobster', 'cursive']
     }
   });
 ReactDOM.render(<App />, document.getElementById('root'));
